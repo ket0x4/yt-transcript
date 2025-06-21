@@ -15,7 +15,7 @@ A Go library and command-line tool to download transcripts (captions) for YouTub
 Clone the repository:
 
 ```sh
-git clone <repository-url>
+git clone https://github.com/ket0x4/yt-transcript
 cd yt-transcript
 ```
 
@@ -87,7 +87,7 @@ import (
 	"fmt"
 	"log"
 
-	"<repository-url>/yttranscript"
+	"github.com/ket0x4/yt-transcript"
 )
 
 func main() {
